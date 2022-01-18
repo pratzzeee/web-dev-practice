@@ -1,0 +1,66 @@
+header {
+    margin: 64px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(71,62,62);
+    margin: 0;
+}
+
+/*#description {
+    margin-bottom: 36px; <!-- Used an id selector-->
+
+
+}*/
+
+header p {
+    margin-bottom: 12px 0; /*Used a combinator*/
+}
+
+a {
+    background-color: rgb(167,1,78);
+    color: white;
+    border-radius: 4px;
+    font-size: 24px;
+    padding: 12px 48px;
+    border: 1px solid rgb(167,1,78);
+    display: inline-block;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(109, 12, 10);
+}
+
+ol{
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+
+}
+
+li {
+    margin: 32px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    padding: 16px;
+    background-color: rgb(219,108,94);
+    border-radius: 6px;
+}
+
+h2 {
+    color:rgb(78,13,5);
+    font-family: 'Oswald',sans-serif;
+}
+
+main p {
+    margin: 12px;
+    color: rgb(71,29,22);
+}
+
+.highlight-goal {
+    background-color: rgb(231, 97, 80);
+
+}
